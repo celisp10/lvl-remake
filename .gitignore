@@ -1,0 +1,14 @@
+# Archivo para personalizar errores (404 - 403)
+.htaccess
+
+# Archivo para organizar el orden de la app
+map.txt
+
+# Archivos de composer
+composer.lock
+
+# Images
+public/images/*
+
+# Uploads
+public/Uploads/*

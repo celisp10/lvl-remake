@@ -1,0 +1,18 @@
+/* BASE */
+@import 'base/normalize.css';
+@import 'base/variables.css';
+@import 'base/typography.css';
+
+/* PAGES */
+@import 'pages/home.css';
+
+/* LAYOUTS */
+@import 'layouts/header.css';
+@import 'layouts/aside.css';
+@import 'base/global.css';
+
+/* COMPONENTS */
+@import 'components/buttons.css';
+
+/* object-fit: cover; */
+/* aspect-ratio: 1; */

@@ -1,0 +1,17 @@
+{
+    "name": "asus/lvl2",
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "app/models",
+            "App\\Controllers\\": "app/controllers",
+            "App\\Configs\\": "configs/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Esteban celis",
+            "email": "celispuertae@gmail.com"
+        }
+    ],
+    "require": {}
+}

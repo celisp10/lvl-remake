@@ -1,0 +1,42 @@
+.options__home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 80px auto;
+    gap: 30px;
+}
+
+.option {
+    /* background-color: var(--blue_card); */
+    background: rgb(65,150,228);
+    background: linear-gradient(90deg, rgba(65,150,228,1) 0%, rgba(22,98,189,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(125,125,125,.5);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(125,125,125,.5);
+    box-shadow: 10px 10px 23px 0px rgba(125,125,125,.5);
+}
+
+.option header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option__title {
+    color: #ffffff;
+    font-family: var(--monserrat);
+}
+
+.option__description {
+    color: #fff;
+}
+
+.option__footer {
+    display: flex;
+    justify-content: end;
+}
